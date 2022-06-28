@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class="text1_text1">Name of product</p>
+    <input class="input_name_product" maxlength="15" name="name" required="" size="10" type="text">
+
+    <form action="" method="post">
+        <div>
+
+            <label for="file-input">Выберите файл</label>
+            <input id="file-input" multiple="multiple" name="file" type="file">
+
+            and drag and drop
+
+        </div>
+        <div><label for="number">How many would you like?</label>
+            <input id="number" max="50" min="1" type="number" value="1">
+
+        </div>
+        <div class="price"><label for="number">Enter the price of product</label>
+            <input id="number_price" max="1000" min="1" type="number" value="1">
+            <select class="select_1">
+                <option disabled="disabled" selected="selected" value="">Select</option>
+                <option value="dollar">$</option>
+                <option value="euro">€</option>
+                <option value="funt">£</option>
+            </select>
+        </div>
+        <div id="final_price"></div>
+        <!--
+    <div class="price">
+                <label for="number">Enter the price of product</label>
+    <input id="number_price" max="1000" min="1" name="amount" type="number" value="1" /></div>
+    -->
+        <div class="wordpress"><select class="select_2">
+                <option disabled="disabled" selected="selected" value="">Select</option>
+                <option value="fruit">Fruit</option>
+                <option value="vegetable">Vegetable</option>
+                <option value="meet">Meet</option>
+                <option value="water">Water</option>
+            </select></div>
+        <div id="data_block">
+            <label for="data">Enter the date the product was created</label>
+            <input type="date" id="party" name="party" min="2022-01-01" max="2022-12-31">
+        </div>
+    </form>
+    <div><button>Submit</button></div>
+    <script><br />
+        function summa() {
+            <br />
+            var numb = document.getElementById(number); <br />
+            var price = document.getElementById(number_price); <br />
+            var final_price = numb * price;
+            console.log(numb); <br />
+            console.log(price); <br />
+            console.log(final_price); <br />
+        }
+           // document.getElementsByClassName("final_price").innerHTML = final_price;</p>
+    </script>
+</body>
+
+</html>
